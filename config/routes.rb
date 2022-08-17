@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   root 'root#index'
 
   namespace :api do
@@ -6,4 +7,5 @@ Rails.application.routes.draw do
       get "greetings" => "greetings#index"
     end
   end
+
 end
